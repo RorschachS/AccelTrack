@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvPatientInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/patientInfo"
+        android:layout_gravity="center" 
+        android:layout_marginTop="20sp"/>
+
+    <EditText
+        android:id="@+id/etPatientID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" 
+        android:hint="Patient ID">
+
+        <requestFocus
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etPatientAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" 
+        android:hint="Age"/>
+
+    <EditText
+        android:id="@+id/etPatientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:hint="Name"/>
+
+    <TextView
+        android:id="@+id/tvSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sex" 
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"/>
+
+    <RadioGroup
+        android:id="@+id/rgSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp">
+
+        <RadioButton
+        android:id="@+id/rbSex_Male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sex_male" />
+
+        <RadioButton
+            android:id="@+id/rbSex_Female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sex_female" />
+
+    </RadioGroup>
+    
+
+    <Button
+        android:id="@+id/btnStartDiagnosisActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/startDiagno" />
+    
+    <Button
+        android:id="@+id/btnContinuousWave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/startDiagnoContinuousWave" />
+    
+
+</LinearLayout>

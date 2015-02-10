@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">HealthTrack</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu">What do you want to do?</string>
+    <string name="diagnosis">Health Diagnosis</string>
+    <string name="patientInfo">Enter the patient information:</string>
+    <string name="startDiagno">Start Diagnosis</string>
+    <string name="sex_female">female</string>
+    <string name="sex_male">male</string>
+    <string name="runDiagno">Run</string>
+    <string name="stopDiagno">Stop</string>
+    <string name="sex">sex</string>
+    <string name="startDiagnoContinuousWave">Continuous Wave</string>
+    <string name="uploadDBtoServer">Upload To Database</string>
+
+</resources>
